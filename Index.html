@@ -17,35 +17,38 @@
 
 	<body>
 		<div class="container">
-			<h1 class="Title greenText">
-				Fat Finger Calculator
-				<div class="line"></div>
-			</h1>
-      <input class="screen" type="text" id="textval"/>
+			<div class="header flex flex-row justify-content-center flex-wrap">
+				<div class="flex flex-col justify-content-center align-items-center">
+					<h1 class="Title greenText">Fat Finger Calculator</h1>
+
+					<div class="line"></div>
+				</div>
+			</div>
+			<input class="screen" type="text" id="textval" />
 			<!-- Button from 0 to 9-->
 			<button class="button-0 button" value="0" onclick="display('0')">0</button>
 			<button class="button-1 button" value="1" onclick="display('1')">1</button>
-			<button class="button-2 button" value="2">2</button>
-			<button class="button-3 button" value="3">3</button>
-			<button class="button-4 button" value="4">4</button>
-			<button class="button-5 button" value="5">5</button>
-			<button class="button-6 button" value="6">6</button>
-			<button class="button-7 button" value="7">7</button>
-			<button class="button-8 button" value="8">8</button>
-			<button class="button-9 button" value="9">9</button>
+			<button class="button-2 button" value="2" onclick="display('2')">2</button>
+			<button class="button-3 button" value="3" onclick="display('3')">3</button>
+			<button class="button-4 button" value="4" onclick="display('4')">4</button>
+			<button class="button-5 button" value="5" onclick="display('5')">5</button>
+			<button class="button-6 button" value="6" onclick="display('6')">6</button>
+			<button class="button-7 button" value="7" onclick="display('7')">7</button>
+			<button class="button-8 button" value="8" onclick="display('8')">8</button>
+			<button class="button-9 button" value="9" onclick="display('9')">9</button>
 
 			<!-- Math Buttons-->
 			<!--
         <button class="mathButton-delete" value="c">c</button>
       -->
 			<button class="mathButton-del" value="c" onclick="clr()">Del</button>
-			<button class="mathButton-ac" value="c" onclick="clr()">Ac</button>
-			<button class="mathButton-plus" value="+">+</button>
-			<button class="mathButton-minus" value="-">-</button>
-			<button class="mathButton-mult" value="*">*</button>
-			<button class="mathButton-div" value="/">/</button>
-			<button class="mathButton-point" value=".">.</button>
-			<button class="mathButton-equal" value="=" onclick="evaluate()">=</button>
+			<button class="mathButton-ac" value="c" onclick="clrtozero()">Ac</button>
+			<button class="mathButton-plus" value="+" onclick="display('+')">+</button>
+			<button class="mathButton-minus" value="-" onclick="display('-')">-</button>
+			<button class="mathButton-mult" value="*" onclick="display('*')">*</button>
+			<button class="mathButton-div" value="/" onclick="display('/')">/</button>
+			<button class="mathButton-point" value="." onclick="display('.')">.</button>
+			<button class="mathButton-equal" value="=" onclick="getResult()">=</button>
 		</div>
 	</body>
 </html>

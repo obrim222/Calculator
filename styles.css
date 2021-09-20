@@ -1,7 +1,8 @@
 .greenText {
 	color: green;
 	font-family: "Roboto", sans-serif;
-	padding-left: 25px;
+	padding-left: 4%;
+	line-height: 26px;
 }
 
 .border {
@@ -9,9 +10,27 @@
 	border-color: black;
 }
 
-.line {
-	width: 300px;
-	height: 18px;
-	border-radius: 5%;
-	border-bottom: 3px solid black;
+.header {
+	width: 400px;
+}
+
+.flex {
+	display: flex;
+}
+.flex-col {
+	flex-direction: column;
+}
+.justify-content-center {
+	justify-content: center;
+}
+.align-items-center {
+	align-items: center;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
 }
