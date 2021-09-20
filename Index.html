@@ -1,39 +1,45 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="index.js"></script>
-    <title>Fat Finger Calculator</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <h1>Fat Finger Calculator</h1>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./grid.css" />
+		<script src="index.js"></script>
+		<title>Fat Finger Calculator</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
 
-    <!-- Button from 0 to 9-->
-    <button class="button" value="0">0</button>
-    <button class="button" value="1">1</button>
-    <button class="button" value="2">2</button>
-    <button class="button" value="3">3</button>
-    <button class="button" value="4">4</button>
-    <button class="button" value="5">5</button>
-    <button class="button" value="6">6</button>
-    <button class="button" value="7">7</button>
-    <button class="button" value="8">8</button>
-    <button class="button" value="9">9</button>
+	<body>
+		<div class="container">
+			<h1 class="Title">Fat Finger Calculator</h1>
+			<!-- Button from 0 to 9-->
+			<button class="button-0 button" value="0">0</button>
+			<button class="button-1 button" value="1">1</button>
+			<button class="button-2 button" value="2">2</button>
+			<button class="button-3 button" value="3">3</button>
+			<button class="button-4 button" value="4">4</button>
+			<button class="button-5 button" value="5">5</button>
+			<button class="button-6 button" value="6">6</button>
+			<button class="button-7 button" value="7">7</button>
+			<button class="button-8 button" value="8">8</button>
+			<button class="button-9 button" value="9">9</button>
 
-    <!-- Math Buttons-->
-    <button class="mathButton" value="c">c</button>
-    <button class="mathButton" value="+">+</button>
-    <button class="mathButton" value="-">-</button>
-    <button class="mathButton" value="*">*</button>
-    <button class="mathButton" value="/">/</button>
-    <button class="mathButton" value=".">.</button>
-    <button class="mathButton" value="=">=</button>
-  </body>
+			<!-- Math Buttons-->
+			<!--
+        <button class="mathButton-delete" value="c">c</button>
+      -->
+
+			<button class="mathButton-plus" value="+">+</button>
+			<button class="mathButton-minus" value="-">-</button>
+			<button class="mathButton-mult" value="*">*</button>
+			<button class="mathButton-div" value="/">/</button>
+			<button class="mathButton-point" value=".">.</button>
+			<button class="mathButton-equal" value="=">=</button>
+		</div>
+	</body>
 </html>
