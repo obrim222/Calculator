@@ -4,11 +4,11 @@
 
 	background-color: lightgrey;
 	display: grid;
-	grid-template-columns: repeat(5, 100px);
-	grid-template-rows: 80px 20px 80px 80px 80px 80px 80px;
+	grid-template-columns: repeat(4, 100px);
+	grid-template-rows: repeat(7, 80px);
 	grid-template-areas:
 		" title title title title "
-		" . . . . "
+		" screen screen screen screen "
 		" button-ac button-ac button-del button-del "
 		" button-7 button-8 button-9 button-plus "
 		" button-4 button-5 button-6 button-minus "
@@ -77,4 +77,11 @@
 
 .mathButton-del {
 	grid-area: button-del;
+}
+
+.screen {
+	grid-area: screen;
+    height: 40px;
+    align-self: center;
+    text-align: end;
 }

@@ -21,9 +21,10 @@
 				Fat Finger Calculator
 				<div class="line"></div>
 			</h1>
+      <input class="screen" type="text" id="textval"/>
 			<!-- Button from 0 to 9-->
-			<button class="button-0 button" value="0">0</button>
-			<button class="button-1 button" value="1">1</button>
+			<button class="button-0 button" value="0" onclick="display('0')">0</button>
+			<button class="button-1 button" value="1" onclick="display('1')">1</button>
 			<button class="button-2 button" value="2">2</button>
 			<button class="button-3 button" value="3">3</button>
 			<button class="button-4 button" value="4">4</button>
@@ -37,14 +38,14 @@
 			<!--
         <button class="mathButton-delete" value="c">c</button>
       -->
-			<button class="mathButton-del" value="Del">Del</button>
-			<button class="mathButton-ac" value="AC">Ac</button>
+			<button class="mathButton-del" value="c" onclick="clr()">Del</button>
+			<button class="mathButton-ac" value="c" onclick="clr()">Ac</button>
 			<button class="mathButton-plus" value="+">+</button>
 			<button class="mathButton-minus" value="-">-</button>
 			<button class="mathButton-mult" value="*">*</button>
 			<button class="mathButton-div" value="/">/</button>
 			<button class="mathButton-point" value=".">.</button>
-			<button class="mathButton-equal" value="=">=</button>
+			<button class="mathButton-equal" value="=" onclick="evaluate()">=</button>
 		</div>
 	</body>
 </html>
