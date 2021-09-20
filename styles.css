@@ -1,0 +1,17 @@
+.greenText {
+	color: green;
+	font-family: "Roboto", sans-serif;
+	padding-left: 25px;
+}
+
+.border {
+	border-radius: 3px;
+	border-color: black;
+}
+
+.line {
+	width: 300px;
+	height: 18px;
+	border-radius: 5%;
+	border-bottom: 3px solid black;
+}
