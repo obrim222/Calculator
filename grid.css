@@ -1,0 +1,67 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(6, 100px);
+    grid-template-areas: 
+    " title title title title "
+    " . . . . "
+    " button-7 button-8 button-9 button-plus "
+    " button-4 button-5 button-6 button-minus "
+    " button-1 button-2 button-3 button-mult "
+    " button-0 button-point button-div button-equal ";
+}
+
+.Title {
+    grid-area: title;
+}
+.button-0 {
+    grid-area: button-0;
+}
+.button-1 {
+    grid-area: button-1;
+}
+.button-2 {
+    grid-area: button-2;
+}
+.button-3 {
+    grid-area: button-3;
+}
+.button-4 {
+    grid-area: button-4;
+}
+.button-5 {
+    grid-area: button-5;
+}
+.button-6 {
+    grid-area: button-6;
+}
+.button-7 {
+    grid-area: button-7;
+}
+.button-8 {
+    grid-area: button-8;
+}
+.button-9 {
+    grid-area: button-9;
+}
+.mathButton-delete {
+    grid-area: button-delete;
+}
+.mathButton-plus {
+    grid-area: button-plus;
+}
+.mathButton-minus {
+    grid-area: button-minus;
+}
+.mathButton-mult {
+    grid-area: button-mult;
+}
+.mathButton-div {
+    grid-area: button-div;
+}
+.mathButton-point {
+    grid-area: button-point;
+}
+.mathButton-equal {
+    grid-area: button-equal;
+}
